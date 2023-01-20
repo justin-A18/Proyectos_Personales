@@ -68,7 +68,7 @@ body{
 }
 
 .btn{
-    flex-basis: 20rem;
+    flex-basis: 10rem;
     height: 4rem;
     background-color: var(--color-fondo);
     border: medium solid var(--color-btn);
