@@ -61,7 +61,7 @@ body{
     place-content: center;
     margin: 0 auto;
     margin-top: 20rem;
-    width: 45rem;
+    width: 40rem;
     height: 15rem;
     grid-template-columns: 1fr;
     grid-template-rows: 7rem 1fr;
@@ -71,7 +71,7 @@ body{
     background-color: #1B1B1B;
     display: flex;
     align-items: center;
-    padding: 0 2rem;
+    padding: 0 1.3rem;
     color: white;
     letter-spacing: .4rem;
     border-radius: 1rem;

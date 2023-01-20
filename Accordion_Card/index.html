@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <section class="questions">
+        <div class="questions__title">
+            <h1 class="title">
+                General Question
+            </h1>
+        </div>
+
+        <div class="questions__accordion">
+            <article class="accordion__card-visible">
+                <div class="card-v__paragraph">
+                    <p class="paragraph-primary">
+                        do you accept all major credit card?
+                    </p>
+
+                    <button class="card-v__button" id="btn">
+                        <span class="btn button__mostrar">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                            </svg>
+                        </span>
+
+                        <span class="btn button__hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M5 11h14v2H5z"></path>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+
+                
+                <div class="accordion__card-hidden" id="hidden">
+                    <hr class="accordion__separation">
+                    <p class="paragraph-secondary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At aperiam quae ea harum officiis itaque pariatur dolore facere tempora, accusamus assumenda. Error ratione, cumque ullam obcaecati eaque laboriosam minus natus!
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
